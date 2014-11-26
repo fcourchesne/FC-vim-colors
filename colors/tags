@@ -1,0 +1,206 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddCterm	lucius.vim	/^function! s:AddCterm(name)$/;"	f
+AddSpCterm	lucius.vim	/^function! s:AddSpCterm(name)$/;"	f
+HL	badwolf.vim	/^function! s:HL(group, fg, ...)$/;"	f
+LuciusBlack	lucius.vim	/^command! LuciusBlack call SetLucius("dark", "normal", "high")$/;"	c
+LuciusBlackHighContrast	lucius.vim	/^command! LuciusBlackHighContrast call SetLucius("dark", "high", "high")$/;"	c
+LuciusBlackLowContrast	lucius.vim	/^command! LuciusBlackLowContrast call SetLucius("dark", "low", "high")$/;"	c
+LuciusDark	lucius.vim	/^command! LuciusDark call SetLucius("dark", "normal", "normal")$/;"	c
+LuciusDarkHighContrast	lucius.vim	/^command! LuciusDarkHighContrast call SetLucius("dark", "high", "normal")$/;"	c
+LuciusDarkLowContrast	lucius.vim	/^command! LuciusDarkLowContrast call SetLucius("dark", "low", "normal")$/;"	c
+LuciusLight	lucius.vim	/^command! LuciusLight call SetLucius("light", "normal", "normal")$/;"	c
+LuciusLightHighContrast	lucius.vim	/^command! LuciusLightHighContrast call SetLucius("light", "high", "normal")$/;"	c
+LuciusLightLowContrast	lucius.vim	/^command! LuciusLightLowContrast call SetLucius("light", "low", "normal")$/;"	c
+LuciusWhite	lucius.vim	/^command! LuciusWhite call SetLucius("light", "normal", "high")$/;"	c
+LuciusWhiteHighContrast	lucius.vim	/^command! LuciusWhiteHighContrast call SetLucius("light", "high", "high")$/;"	c
+LuciusWhiteLowContrast	lucius.vim	/^command! LuciusWhiteLowContrast call SetLucius("light", "low", "high")$/;"	c
+SetLucius	lucius.vim	/^function! SetLucius(style, contrast, contrast_bg)$/;"	f
+X	Tomorrow-FC.vim	/^	fun <SID>X(group, fg, bg, attr)$/;"	f
+X	Tomorrow.vim	/^	fun <SID>X(group, fg, bg, attr)$/;"	f
+X	summerfruit256.vim	/^    fun <SID>X(group, fg, bg, attr)$/;"	f
+badwolf_tex	badwolf.vim	/^augroup badwolf_tex$/;"	a
+color	summerfruit256.vim	/^    fun <SID>color(r, g, b)$/;"	f
+colors_name	Mustang_Vim_Colorscheme_by_hcalves.vim	/^let colors_name = "mustang"$/;"	v
+colors_name	autumnleaf.vim	/^let colors_name="AutumnLeaf"$/;"	v
+colors_name	badwolf.vim	/^let colors_name = "badwolf"$/;"	v
+colors_name	github.vim	/^let colors_name = "github"$/;"	v
+colors_name	ironman.vim	/^let colors_name = "ironman"$/;"	v
+colors_name	pyte.vim	/^let colors_name = "pyte"$/;"	v
+colors_name	summerfruit-FC.vim	/^let colors_name = "summerfruit"$/;"	v
+colors_name	summerfruit.vim	/^let colors_name = "summerfruit"$/;"	v
+colour	Tomorrow-FC.vim	/^	fun <SID>colour(r, g, b)$/;"	f
+colour	Tomorrow.vim	/^	fun <SID>colour(r, g, b)$/;"	f
+g:badwolf_css_props_highlight	badwolf.vim	/^    let g:badwolf_css_props_highlight = 0$/;"	v
+g:badwolf_html_link_underline	badwolf.vim	/^    let g:badwolf_html_link_underline = 1$/;"	v
+g:colors_name	Tomorrow-FC.vim	/^let g:colors_name = "Tomorrow"$/;"	v
+g:colors_name	Tomorrow.vim	/^let g:colors_name = "Tomorrow"$/;"	v
+g:colors_name	codeschool.vim	/^let g:colors_name = "codeschool"$/;"	v
+g:colors_name	hemisu.vim	/^let g:colors_name = "hemisu"$/;"	v
+g:colors_name	lucius.vim	/^let g:colors_name="lucius"$/;"	v
+g:colors_name	molokai-FC.vim	/^let g:colors_name="molokai"$/;"	v
+g:colors_name	molokai.vim	/^let g:colors_name="molokai"$/;"	v
+g:colors_name	monokai.vim	/^let g:colors_name = "monokai"$/;"	v
+g:colors_name	summerfruit256.vim	/^let g:colors_name="summerfruit256"$/;"	v
+g:colors_name	tutticolori.vim	/^let g:colors_name = "tutticolori"$/;"	v
+g:colors_name	vylight-FC.vim	/^let g:colors_name="vylight"$/;"	v
+g:colors_name	vylight.vim	/^let g:colors_name="vylight"$/;"	v
+grey_color	summerfruit256.vim	/^    fun <SID>grey_color(n)$/;"	f
+grey_colour	Tomorrow-FC.vim	/^	fun <SID>grey_colour(n)$/;"	f
+grey_colour	Tomorrow.vim	/^	fun <SID>grey_colour(n)$/;"	f
+grey_level	Tomorrow-FC.vim	/^	fun <SID>grey_level(n)$/;"	f
+grey_level	Tomorrow.vim	/^	fun <SID>grey_level(n)$/;"	f
+grey_level	summerfruit256.vim	/^    fun <SID>grey_level(n)$/;"	f
+grey_number	Tomorrow-FC.vim	/^	fun <SID>grey_number(x)$/;"	f
+grey_number	Tomorrow.vim	/^	fun <SID>grey_number(x)$/;"	f
+grey_number	summerfruit256.vim	/^    fun <SID>grey_number(x)$/;"	f
+h	hemisu.vim	/^function! s:h(group, style)$/;"	f
+rgb	Tomorrow-FC.vim	/^	fun <SID>rgb(rgb)$/;"	f
+rgb	Tomorrow.vim	/^	fun <SID>rgb(rgb)$/;"	f
+rgb	summerfruit256.vim	/^    fun <SID>rgb(rgb)$/;"	f
+rgb_color	summerfruit256.vim	/^    fun <SID>rgb_color(x, y, z)$/;"	f
+rgb_colour	Tomorrow-FC.vim	/^	fun <SID>rgb_colour(x, y, z)$/;"	f
+rgb_colour	Tomorrow.vim	/^	fun <SID>rgb_colour(x, y, z)$/;"	f
+rgb_level	Tomorrow-FC.vim	/^	fun <SID>rgb_level(n)$/;"	f
+rgb_level	Tomorrow.vim	/^	fun <SID>rgb_level(n)$/;"	f
+rgb_level	summerfruit256.vim	/^    fun <SID>rgb_level(n)$/;"	f
+rgb_number	Tomorrow-FC.vim	/^	fun <SID>rgb_number(x)$/;"	f
+rgb_number	Tomorrow.vim	/^	fun <SID>rgb_number(x)$/;"	f
+rgb_number	summerfruit256.vim	/^    fun <SID>rgb_number(x)$/;"	f
+s:accent1	hemisu.vim	/^  let s:accent1    = s:middleDarkBlue$/;"	v
+s:accent1	hemisu.vim	/^  let s:accent1    = s:middleLightBlue$/;"	v
+s:accent2	hemisu.vim	/^  let s:accent2    = s:middleDarkGreen$/;"	v
+s:accent2	hemisu.vim	/^  let s:accent2    = s:middleLightGreen$/;"	v
+s:accent3	hemisu.vim	/^  let s:accent3    = s:lightGreen$/;"	v
+s:accent3	hemisu.vim	/^  let s:accent3    = s:middleDarkPink$/;"	v
+s:accent4	hemisu.vim	/^  let s:accent4    = s:darkTan$/;"	v
+s:accent4	hemisu.vim	/^  let s:accent4    = s:lightTan$/;"	v
+s:almostBlack	hemisu.vim	/^let s:almostBlack      = { "gui": "#111111", "cterm": "233" }$/;"	v
+s:almostWhite	hemisu.vim	/^let s:almostWhite      = { "gui": "#EEEEEE", "cterm": "255" }$/;"	v
+s:alternative_bold_items	lucius.vim	/^let s:alternative_bold_items = ["Identifier", "PreProc", "Statement",$/;"	v
+s:aqua	Tomorrow-FC.vim	/^let s:aqua = "3e999f"$/;"	v
+s:aqua	Tomorrow.vim	/^let s:aqua = "3e999f"$/;"	v
+s:background	Tomorrow-FC.vim	/^let s:background = "EEEEEE"$/;"	v
+s:background	Tomorrow.vim	/^let s:background = "fafafa"$/;"	v
+s:bg	hemisu.vim	/^  let s:bg         = s:black$/;"	v
+s:bg	hemisu.vim	/^  let s:bg         = s:white$/;"	v
+s:black	hemisu.vim	/^let s:black            = { "gui": "#000000", "cterm": "16"  }$/;"	v
+s:blue	Tomorrow-FC.vim	/^let s:blue = "4271ae"$/;"	v
+s:blue	Tomorrow.vim	/^let s:blue = "4271ae"$/;"	v
+s:bold_items	lucius.vim	/^let s:bold_items = [$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc = {}$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.blackestgravel = ['141413', 232]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.blackgravel    = ['1c1b1a', 233]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.brightgravel   = ['d9cec3', 252]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.coal = ['000000', 16]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.coffee    = ['c7915b', 173]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.dalespale = ['fade3e', 221]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.darkgravel     = ['242321', 235]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.darkroast = ['88633f', 95]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.deepergravel   = ['35322d', 236]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.deepgravel     = ['45413b', 238]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.dirtyblonde = ['f4cf86', 222]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.dress = ['ff9eb8', 211]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.gravel         = ['857f78', 243]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.lightgravel    = ['998f84', 245]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.lime = ['aeee00', 154]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.mediumgravel   = ['666462', 241]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.orange = ['ffa724', 214]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.plain = ['f8f6f2', 15]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.saltwatertaffy = ['8cffba', 121]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.snow = ['ffffff', 15]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.taffy = ['ff2c4b', 196]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.tardis = ['0a9dff', 39]$/;"	v
+s:bwc	badwolf.vim	/^let s:bwc.toffee = ['b88853', 137]$/;"	v
+s:color_map	lucius.vim	/^let s:color_map = {$/;"	v
+s:comment	Tomorrow-FC.vim	/^let s:comment = "8e908c"$/;"	v
+s:comment	Tomorrow.vim	/^let s:comment = "8e908c"$/;"	v
+s:comment	hemisu.vim	/^  let s:comment    = s:middleDarkGrey$/;"	v
+s:comment	hemisu.vim	/^  let s:comment    = s:middleLightGrey$/;"	v
+s:contrast	lucius.vim	/^    let s:contrast = "normal"$/;"	v
+s:contrast	lucius.vim	/^    let s:contrast = g:lucius_contrast$/;"	v
+s:contrast_bg	lucius.vim	/^    let s:contrast_bg = "normal"$/;"	v
+s:contrast_bg	lucius.vim	/^    let s:contrast_bg = g:lucius_contrast_bg$/;"	v
+s:darkBlue	hemisu.vim	/^let s:darkBlue         = { "gui": "#005F87", "cterm": "24"  }$/;"	v
+s:darkGreen	hemisu.vim	/^let s:darkGreen        = { "gui": "#5F5F00", "cterm": "58"  }$/;"	v
+s:darkGrey	hemisu.vim	/^let s:darkGrey         = { "gui": "#444444", "cterm": "238" }$/;"	v
+s:darkPink	hemisu.vim	/^let s:darkPink         = { "gui": "#63001C", "cterm": "88"  }$/;"	v
+s:darkTan	hemisu.vim	/^let s:darkTan          = { "gui": "#503D15", "cterm": "52"  }$/;"	v
+s:dimmed	hemisu.vim	/^  let s:dimmed     = s:middleDarkGrey$/;"	v
+s:dimmed	hemisu.vim	/^  let s:dimmed     = s:middleLightGrey$/;"	v
+s:faint	hemisu.vim	/^  let s:faint      = s:almostBlack$/;"	v
+s:faint	hemisu.vim	/^  let s:faint      = s:almostWhite$/;"	v
+s:faintBlue	hemisu.vim	/^  let s:faintBlue  = s:darkBlue$/;"	v
+s:faintBlue	hemisu.vim	/^  let s:faintBlue  = s:lightBlue$/;"	v
+s:faintGreen	hemisu.vim	/^  let s:faintGreen = s:darkGreen$/;"	v
+s:faintGreen	hemisu.vim	/^  let s:faintGreen = s:lightGreen$/;"	v
+s:faintRed	hemisu.vim	/^  let s:faintRed   = s:darkPink$/;"	v
+s:faintRed	hemisu.vim	/^  let s:faintRed   = s:lightPink$/;"	v
+s:foreground	Tomorrow-FC.vim	/^let s:foreground = "4d4d4c"$/;"	v
+s:foreground	Tomorrow.vim	/^let s:foreground = "4d4d4c"$/;"	v
+s:green	Tomorrow-FC.vim	/^let s:green = "718c00"$/;"	v
+s:green	Tomorrow.vim	/^let s:green = "718c00"$/;"	v
+s:gutter	badwolf.vim	/^    let s:gutter = 'blackestgravel'$/;"	v
+s:gutter	badwolf.vim	/^    let s:gutter = 'blackgravel'$/;"	v
+s:lightBlue	hemisu.vim	/^let s:lightBlue        = { "gui": "#CBE4EE", "cterm": "195" }$/;"	v
+s:lightGreen	hemisu.vim	/^let s:lightGreen       = { "gui": "#BBFFAA", "cterm": "157" }$/;"	v
+s:lightGrey	hemisu.vim	/^let s:lightGrey        = { "gui": "#BBBBBB", "cterm": "249" }$/;"	v
+s:lightPink	hemisu.vim	/^let s:lightPink        = { "gui": "#FFAFAF", "cterm": "217" }$/;"	v
+s:lightTan	hemisu.vim	/^let s:lightTan         = { "gui": "#ECE1C8", "cterm": "230" }$/;"	v
+s:line	Tomorrow-FC.vim	/^let s:line = "F7F7F7"$/;"	v
+s:line	Tomorrow.vim	/^let s:line = "efefef"$/;"	v
+s:middleDarkBlue	hemisu.vim	/^let s:middleDarkBlue   = { "gui": "#538192", "cterm": "24"  }$/;"	v
+s:middleDarkGreen	hemisu.vim	/^let s:middleDarkGreen  = { "gui": "#739200", "cterm": "64"  }$/;"	v
+s:middleDarkGrey	hemisu.vim	/^let s:middleDarkGrey   = { "gui": "#777777", "cterm": "241" }$/;"	v
+s:middleDarkPink	hemisu.vim	/^let s:middleDarkPink   = { "gui": "#FF0055", "cterm": "197" }$/;"	v
+s:middleLightBlue	hemisu.vim	/^let s:middleLightBlue  = { "gui": "#9FD3E6", "cterm": "116" }$/;"	v
+s:middleLightGreen	hemisu.vim	/^let s:middleLightGreen = { "gui": "#B1D631", "cterm": "149" }$/;"	v
+s:middleLightGrey	hemisu.vim	/^let s:middleLightGrey  = { "gui": "#999999", "cterm": "246" }$/;"	v
+s:middleLightPink	hemisu.vim	/^let s:middleLightPink  = { "gui": "#D65E76", "cterm": "167" }$/;"	v
+s:molokai_original	molokai-FC.vim	/^    let s:molokai_original = 0$/;"	v
+s:molokai_original	molokai-FC.vim	/^    let s:molokai_original = g:molokai_original$/;"	v
+s:molokai_original	molokai.vim	/^    let s:molokai_original = 0$/;"	v
+s:molokai_original	molokai.vim	/^    let s:molokai_original = g:molokai_original$/;"	v
+s:no_term_bg	lucius.vim	/^    let s:no_term_bg = 0$/;"	v
+s:no_term_bg	lucius.vim	/^    let s:no_term_bg = g:lucius_no_term_bg$/;"	v
+s:norm	hemisu.vim	/^  let s:norm       = s:almostBlack$/;"	v
+s:norm	hemisu.vim	/^  let s:norm       = s:almostWhite$/;"	v
+s:normBlue	hemisu.vim	/^  let s:normBlue   = s:middleDarkBlue$/;"	v
+s:normBlue	hemisu.vim	/^  let s:normBlue   = s:middleLightBlue$/;"	v
+s:normGreen	hemisu.vim	/^  let s:normGreen  = s:middleDarkGreen$/;"	v
+s:normGreen	hemisu.vim	/^  let s:normGreen  = s:middleLightGreen$/;"	v
+s:normRed	hemisu.vim	/^  let s:normRed    = s:middleDarkPink$/;"	v
+s:normRed	hemisu.vim	/^  let s:normRed    = s:middleLightPink$/;"	v
+s:normal_items	lucius.vim	/^let s:normal_items = [$/;"	v
+s:orange	Tomorrow-FC.vim	/^let s:orange = "f5871f"$/;"	v
+s:orange	Tomorrow.vim	/^let s:orange = "f5871f"$/;"	v
+s:purple	Tomorrow-FC.vim	/^let s:purple = "8959a8"$/;"	v
+s:purple	Tomorrow.vim	/^let s:purple = "8959a8"$/;"	v
+s:red	Tomorrow-FC.vim	/^let s:red = "c82829"$/;"	v
+s:red	Tomorrow.vim	/^let s:red = "c82829"$/;"	v
+s:selection	Tomorrow-FC.vim	/^let s:selection = "d6d6d6"$/;"	v
+s:selection	Tomorrow.vim	/^let s:selection = "d6d6d6"$/;"	v
+s:style	lucius.vim	/^    let s:style = &background$/;"	v
+s:style	lucius.vim	/^    let s:style = g:lucius_style$/;"	v
+s:subtle	hemisu.vim	/^  let s:subtle     = s:darkGrey$/;"	v
+s:subtle	hemisu.vim	/^  let s:subtle     = s:lightGrey$/;"	v
+s:tabline	badwolf.vim	/^        let s:tabline = 'blackestgravel'$/;"	v
+s:tabline	badwolf.vim	/^        let s:tabline = 'blackgravel'$/;"	v
+s:tabline	badwolf.vim	/^        let s:tabline = 'darkgravel'$/;"	v
+s:tabline	badwolf.vim	/^        let s:tabline = 'deepgravel'$/;"	v
+s:tabline	badwolf.vim	/^    let s:tabline = 'blackgravel'$/;"	v
+s:undercurl_items	lucius.vim	/^let s:undercurl_items = [$/;"	v
+s:underline_items	lucius.vim	/^let s:underline_items = [$/;"	v
+s:use_bold	lucius.vim	/^    let s:use_bold = 1$/;"	v
+s:use_bold	lucius.vim	/^    let s:use_bold = g:lucius_use_bold$/;"	v
+s:use_underline	lucius.vim	/^    let s:use_underline = 1$/;"	v
+s:use_underline	lucius.vim	/^    let s:use_underline = g:lucius_use_underline$/;"	v
+s:white	hemisu.vim	/^let s:white            = { "gui": "#FFFFFF", "cterm": "231" }$/;"	v
+s:window	Tomorrow-FC.vim	/^let s:window = "efefef"$/;"	v
+s:window	Tomorrow.vim	/^let s:window = "efefef"$/;"	v
+s:yellow	Tomorrow-FC.vim	/^let s:yellow = "eab700"$/;"	v
+s:yellow	Tomorrow.vim	/^let s:yellow = "eab700"$/;"	v
