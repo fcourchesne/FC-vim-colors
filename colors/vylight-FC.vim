@@ -22,8 +22,7 @@ hi goDeclaration 							gui=bold
 "if else switch select
 hi goConditional guifg=#C955FF
 "Comments
-""""hi goComment 	 guifg=#ACACAC 		guibg=#F5F5F5 gui=italic
-hi goComment 	 guifg=#ACACAC 				gui=italic
+hi link goComment 	Comment 
 "complex64 complex128
 hi goComplexes   guifg=#FF00C1
 "case default
@@ -36,7 +35,8 @@ hi goDeclType    							gui=bold
 hi goStatement   guifg=#FF7000 				gui=bold
 "goTodo              contained TODO FIXME XXX BUG
 hi goTodo 		 guifg=#FF0009   			gui=italic,bold
-
+"goConstants         iota true false nil
+hi link goConstants 	Constant
 "
 "+ other types available
 "goRepeat            for range
@@ -46,7 +46,6 @@ hi goTodo 		 guifg=#FF0009   			gui=italic,bold
 "goFloats            float32 float64
 "goBuiltins          append cap close complex copy delete imag len
 "goBuiltins          make new panic print println real recover
-"goConstants         iota true false nil
 "goString            string
 "goRawString         raw string
 
@@ -65,13 +64,13 @@ hi Title         guifg=black    guibg=#EDEDED
 hi Cursor        guifg=#EDEDED  guibg=#636363
 hi LineNr        guifg=#D6D6D6  guibg=#EDEDED
 hi Visual                       guibg=#D0E7FF  gui=none
-hi NonText       guifg=#fafafa  guibg=#fafafa
+hi NonText       guifg=#ededed  guibg=#ededed
 hi StatusLine    guifg=#222222  guibg=#eeeeee  gui=none
 hi StatusLineNC  guifg=#888888  guibg=#eeeeee  gui=none
 hi VertSplit     guifg=#eeeeee  guibg=#eeeeee  gui=none
-hi ModeMsg       guifg=black    guibg=#bbddff  gui=none
-hi ErrorMsg      guifg=black    guibg=#ffbbbb  gui=none
-hi Error         guifg=#bb3355  guibg=white    gui=none
+hi ModeMsg       guifg=#FAFAFA    guibg=#737373  gui=none
+hi ErrorMsg      guifg=#FFFFFF   guibg=#FF005D  gui=bold
+hi Error         guifg=#bb3355  guibg=#EDEDED  gui=none
 hi Folded        guifg=#999999  guibg=#E6E6E6
 
 "hi MatchParen                 guibg=#ccffdd  gui=none
@@ -86,10 +85,10 @@ hi Folded        guifg=#999999  guibg=#E6E6E6
 " Vim 7.x specific
 if version >= 700
   hi MatchParen                 guibg=#FFFC80  gui=none
-  hi Pmenu       guifg=#F5F5F5  guibg=#9C9C9C  gui=none
-  hi PmenuSel    guifg=white    guibg=#3585ef  gui=bold
-  hi PmenuSbar   guifg=#d0d5dd  guibg=#e0e5ee  gui=bold
-  hi PmenuThumb  guifg=#e0e5ee  guibg=#c0c5dd  gui=bold
+  hi Pmenu       guifg=#F5F5F5  guibg=#4E4E4E  gui=none
+  hi PmenuSel    guifg=#FFFFFF  guibg=#0050B0  gui=bold
+  hi PmenuSbar   guifg=#d0d5dd  guibg=#FF009D  gui=bold
+  hi PmenuThumb  guifg=#e0e5ee  guibg=#FF009D  gui=bold
   hi Search                     guibg=#fcfcaa  gui=none
   hi IncSearch                  guibg=#ffff33  gui=bold
   hi CursorLine                 guibg=#F5F5F5
@@ -98,13 +97,15 @@ endif
 
 
 " Syntax highlighting 
-hi Comment       guifg=#777777  gui=none
+"hi Comment       guifg=#777777  gui=none
+hi Comment       guifg=#AFAFAF  gui=none
 hi Todo          guifg=#446644  guibg=#ddeecc  gui=italic
 hi Operator      guifg=#1a1a1a  gui=none
 hi Identifier    guifg=#1a1a1a  gui=none
 hi Statement     guifg=#1a1a1a  gui=none
 hi Type          guifg=#0050b0  gui=none
-hi Constant      guifg=#204070  gui=none
+"hi Constant      guifg=#204070  gui=none
+hi Constant      guifg=#B907CE  gui=none
 hi Conditional   guifg=#006633  gui=none
 hi Delimiter     guifg=#1a1a1a  gui=none
 hi PreProc       guifg=#006633  gui=none
