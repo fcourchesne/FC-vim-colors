@@ -46,10 +46,10 @@ let g:colors_name="vylight-FC"
 "goLabel 			 case default
 "goDirective 		 package import
 "goDeclType 		 struct interface
+"goType 			 TODO: Detail missing here
 
 " Unused:
 "goRepeat            for range
-"goType              chan map bool string error
 "goSignedInts        int int8 int16 int32 int64 rune
 "goUnsignedInts      byte uint uint8 uint16 uint32 uint64 uintptr
 "goFloats            float32 float64
@@ -82,7 +82,7 @@ hi Todo 			guifg=#FF0009 	guibg=#FFFFFF 		gui=italic,bold 	ctermfg=160 	ctermbg=
 hi Operator 		guifg=Black 											ctermfg=232
 hi Identifier 		guifg=Black 											ctermfg=232 	ctermbg=none
 hi Statement 		guifg=#FF5400 						gui=bold 			ctermfg=202 					cterm=bold
-hi Type 			guifg=#375CF5 						gui=bold 			ctermfg=26 						cterm=bold
+hi Type 			guifg=#375CF5 						gui=none 			ctermfg=26 						cterm=none
 hi Constant 		guifg=#B907CE 											ctermfg=92
 hi Conditional 		guifg=#006633 						gui=bold			ctermfg=22 						cterm=bold
 hi Delimiter 		guifg=Black 											ctermfg=232
@@ -97,11 +97,12 @@ hi goComplexes   	guifg=#FF00C1 											ctermfg=199
 hi goLabel       										gui=italic 											cterm=italic
 hi goDirective 											gui=bold 											cterm=bold
 hi goDeclType    										gui=bold 											cterm=bold
+hi goType 			guifg=#375CF5 						gui=none 			ctermfg=26 		ctermbg=none 	cterm=none
+hi goFunction 											gui=bold 											cterm=bold
 
 " Prompt menu
 hi Pmenu 			guifg=#FBFBFB 	guibg=#666666 		gui=none 			ctermfg=253		ctermbg=245
 hi PmenuSel 		guifg=#FFFFFF 	guibg=#375CF5 		gui=bold 							ctermbg=255
-" TODO: GETTING ERROR FROM HERE
 hi PmenuSbar 		guifg=#8C8C8C 	guibg=#FFFFFF 		gui=bold 			ctermfg=249		ctermbg=200
 hi PmenuThumb 		guifg=#FBFBFB 	guibg=#FFFFFF 		gui=bold 			ctermfg=253		ctermbg=200
 
