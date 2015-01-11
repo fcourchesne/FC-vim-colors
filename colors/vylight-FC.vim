@@ -1,44 +1,53 @@
+" Author: Francis Courchesne <fcourchesne@gmail.com>
+" Website: https://github.com/fcourchesne/$$$$$$$$$$$$$$$$$
+" Note: Based on the vylight theme
+" by Vy-Shane Sin Fat
 "
-" Vim colour file
-"
-" Maintainer:  Vy-Shane Sin Fat <shane@node.mu>
-" Version:     1.4
-"
-" This colour file is meant for GUI use.
-"
+" TODO: Remove this:
+" autocmd BufWritePost,BufRead vylight-FC.vim :colorscheme vylight-FC
+set fillchars+=vert:\ 
 
-set background=light
+" Background = 	'#D6D6D6' 		" Terminal: none
+" Black = 		'#222222' 		" Terminal: 232
+" Red = 			'#FF0009'       " Terminal: 250
+" Orange = 		'#FF5400' 		" Terminal: 202
+" Green =			'#E59220' 		" Terminal: 251
+" Purple = 		'#B907CE' 		" Terminal: 92
+" Grey = 			'#8C8C8C' 		" Terminal: 249
+" White = 		'#FFFFFF' 		" Terminal: 255
+" Pink = 			'#FF00C1' 		" Terminal: 199
+
+" LightBlue = 	'#D0E7FF' 		" Terminal: 153
+" LightYellow = 	'#FDFD74' 		" Terminal: 229
+" LightGrey = 	'#FBFBFB' 		" Terminal: 253
+
+" DarkGrey = 		'#666666' 		" Terminal: 245
+" DarkGreen = 	'#006633' 		" Terminal: 22
+" DarkBlue = 		'#375CF5' 		" Terminal: 26
+" DarkPink = 		'#FF009D' 		" Terminal: 200
+" DarkRed = 		'#BB3355' 		" Terminal: 88
+
+" DiffRemovedBg= 		'#FFD2DD' 		" Terminal: 225
+" DiffAddedBg= 		'#DAFFD3' 		" Terminal: 121
+" DiffModifiedBg= 	'#D3EEFF' 		" Terminal: 117
+
 hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="vylight"
+let g:colors_name="vylight-FC"
 
 
-" Go language specific
-"
-"var const type
-hi goDeclaration 							gui=bold
-"if else switch select
-hi goConditional guifg=#C955FF
-"Comments
-hi link goComment 	Comment 
-"complex64 complex128
-hi goComplexes   guifg=#FF00C1
-"case default
-hi goLabel       							gui=italic
-"package import
-hi goDirective 								gui=bold
-"struct interface
-hi goDeclType    							gui=bold
-"defer go goto return break continue fallthrough
-hi goStatement   guifg=#FF7000 				gui=bold
-"goTodo              contained TODO FIXME XXX BUG
-hi goTodo 		 guifg=#FF0009   			gui=italic,bold
-"goConstants         iota true false nil
-hi link goConstants 	Constant
-"
-"+ other types available
+" Go language specific"
+" Used:
+"goDeclaration 		 var const type
+"goConditional 		 if else switch select
+"goComplexes 		 complex64 complex128
+"goLabel 			 case default
+"goDirective 		 package import
+"goDeclType 		 struct interface
+
+" Unused:
 "goRepeat            for range
 "goType              chan map bool string error
 "goSignedInts        int int8 int16 int32 int64 rune
@@ -49,68 +58,74 @@ hi link goConstants 	Constant
 "goString            string
 "goRawString         raw string
 
+hi Normal 			guifg=Black 	guibg=#D6D6D6 		gui=none 			ctermfg=232		ctermbg=none
+hi Title         	guifg=#FF5400 	guibg=#D6D6D6 		gui=none 			ctermfg=202 	ctermbg=none
+hi Cursor        	guifg=Black 	guibg=#666666 		gui=none 			ctermfg=232 	ctermbg=245
+hi CursorLine 						guibg=#EAEAEA 		gui=none 							ctermbg=254 	cterm=none
+hi LineNr        	guifg=#8C8C8C 	guibg=#D6D6D6 		gui=none 			ctermfg=249
+hi Visual 							guibg=#D0E7FF 		gui=none 							ctermbg=153
+hi NonText 			guifg=#FBFBFB 	guibg=#D6D6D6 	 	gui=none 			ctermfg=253
+hi StatusLine 		guifg=Black 	guibg=#D6D6D6 		gui=none 			ctermfg=232
+hi StatusLineNC 	guifg=#666666 	guibg=#D6D6D6 		gui=none 			ctermfg=245
+hi VertSplit 		guifg=#A0A0A0 	guibg=#C7C7C7		gui=none 			ctermfg=251
+hi ModeMsg 			guifg=#FBFBFB 	guibg=#FF5400 		gui=none 			ctermfg=253 	ctermbg=202
+hi ErrorMsg 		guifg=#FFFFFF 	guibg=#FF0009 		gui=bold 			ctermfg=255 	ctermbg=160
+hi Error         	guifg=#BB3355 	guibg=#FF0009 		gui=none 			ctermfg=88 		ctermbg=160
+hi Folded        	guifg=#666666 	guibg=#D6D6D6 		gui=none 			ctermfg=245
+hi FoldColumn    	guifg=#666666 	guibg=#D6D6D6 		gui=none 			ctermfg=245
+hi ColorColumn 						guibg=#FBFBFB 		gui=none 							ctermbg=253
+hi MatchParen 						guibg=#FDFD74 		gui=none 							ctermbg=229
+hi Search 							guibg=#FDFD74 		gui=none 			ctermfg=none 	ctermbg=229
+hi IncSearch 						guibg=#FDFD74 		gui=bold 			ctermfg=none 	ctermbg=229
+hi Comment 			guifg=#8C8C8C 	guibg=#D6D6D6 		gui=italic 			ctermfg=249
+hi Todo 			guifg=#FF0009 	guibg=#FFFFFF 		gui=italic,bold 	ctermfg=160 	ctermbg=255 	cterm=bold
+hi Operator 		guifg=Black 											ctermfg=232
+hi Identifier 		guifg=Black 											ctermfg=232 	ctermbg=none
+hi Statement 		guifg=#FF5400 						gui=bold 			ctermfg=202 					cterm=bold
+hi Type 			guifg=#375CF5 						gui=bold 			ctermfg=26 						cterm=bold
+hi Constant 		guifg=#B907CE 											ctermfg=92
+hi Conditional 		guifg=#006633 						gui=bold			ctermfg=22 						cterm=bold
+hi Delimiter 		guifg=Black 											ctermfg=232
+hi PreProc 			guifg=#006633 											ctermfg=22
+hi Special 			guifg=#006633 											ctermfg=22
+hi Keyword 			guifg=#375CF5 											ctermfg=26
 
-"hi Normal        guifg=#111111  guibg=white
-"hi Title         guifg=black    guibg=white
-"hi Cursor                       guibg=#FF7311
-"hi LineNr        guifg=#bebebe  guibg=#f8f8f8
-"hi Visual                       guibg=#bbddff
-"hi NonText       guifg=#fafafa  guibg=#fafafa
-"hi StatusLine    guifg=#222222  guibg=#eeeeee  gui=none
-"hi StatusLineNC  guifg=#888888  guibg=#eeeeee  gui=none
-"hi VertSplit     guifg=#eeeeee  guibg=#eeeeee  gui=none
-hi Normal        guifg=#111111  guibg=#EDEDED
-hi Title         guifg=black    guibg=#EDEDED
-hi Cursor        guifg=#EDEDED  guibg=#636363
-hi LineNr        guifg=#D6D6D6  guibg=#EDEDED
-hi Visual                       guibg=#D0E7FF  gui=none
-hi NonText       guifg=#ededed  guibg=#ededed
-hi StatusLine    guifg=#222222  guibg=#eeeeee  gui=none
-hi StatusLineNC  guifg=#888888  guibg=#eeeeee  gui=none
-hi VertSplit     guifg=#eeeeee  guibg=#eeeeee  gui=none
-hi ModeMsg       guifg=#FAFAFA    guibg=#737373  gui=none
-hi ErrorMsg      guifg=#FFFFFF   guibg=#FF005D  gui=bold
-hi Error         guifg=#bb3355  guibg=#EDEDED  gui=none
-hi Folded        guifg=#999999  guibg=#E6E6E6
+" Go lang
+hi goDeclaration 										gui=bold
+hi goConditional 	guifg=#FF5400 						gui=bold 			ctermfg=202
+hi goComplexes   	guifg=#FF00C1 											ctermfg=199
+hi goLabel       										gui=italic 											cterm=italic
+hi goDirective 											gui=bold 											cterm=bold
+hi goDeclType    										gui=bold 											cterm=bold
 
-"hi MatchParen                 guibg=#ccffdd  gui=none
-"hi Pmenu       guifg=#60656f  guibg=#f0f5ff  gui=none
-"hi PmenuSel    guifg=white    guibg=#3585ef  gui=bold
-"hi PmenuSbar   guifg=#d0d5dd  guibg=#e0e5ee  gui=bold
-"hi PmenuThumb  guifg=#e0e5ee  guibg=#c0c5dd  gui=bold
-"hi Search                     guibg=#fcfcaa  gui=none
-"hi IncSearch                  guibg=#ffff33  gui=bold
-"hi CursorLine                 guibg=#f1faff
-"hi ColorColumn                guibg=#fafafa
-" Vim 7.x specific
-if version >= 700
-  hi MatchParen                 guibg=#FFFC80  gui=none
-  hi Pmenu       guifg=#F5F5F5  guibg=#4E4E4E  gui=none
-  hi PmenuSel    guifg=#FFFFFF  guibg=#0050B0  gui=bold
-  hi PmenuSbar   guifg=#d0d5dd  guibg=#FF009D  gui=bold
-  hi PmenuThumb  guifg=#e0e5ee  guibg=#FF009D  gui=bold
-  hi Search                     guibg=#fcfcaa  gui=none
-  hi IncSearch                  guibg=#ffff33  gui=bold
-  hi CursorLine                 guibg=#F5F5F5
-  hi ColorColumn                guibg=#fafafa
-endif
+" Prompt menu
+hi Pmenu 			guifg=#FBFBFB 	guibg=#666666 		gui=none 			ctermfg=253		ctermbg=245
+hi PmenuSel 		guifg=#FFFFFF 	guibg=#375CF5 		gui=bold 							ctermbg=255
+" TODO: GETTING ERROR FROM HERE
+hi PmenuSbar 		guifg=#8C8C8C 	guibg=#FFFFFF 		gui=bold 			ctermfg=249		ctermbg=200
+hi PmenuThumb 		guifg=#FBFBFB 	guibg=#FFFFFF 		gui=bold 			ctermfg=253		ctermbg=200
+
+" GitGutter
+hi SignColumn 	 					guibg=#D6D6D6 											ctermbg=none 	ctermfg=none
+
+" Synatastic
+hi SpellBad 		guifg=#FF0009 				 							ctermfg=255 	ctermbg=253
+hi SpellCap 						guibg=#375CF5							ctermfg=255 	ctermbg=253
+
+" Diff
+hi DiffAdd         					guibg=#DAFFD3 		gui=none 							ctermbg=121
+hi DiffChange      					guibg=#D3EEFF 		gui=none
+hi DiffText        					guibg=#FFFFFF 		gui=none 							ctermbg=117
+hi DiffDelete 		guifg=#8C8C8C 	guibg=#FFD2DD 		gui=none 			ctermfg=249 	ctermbg=225
+
+hi TabLineFill 		guifg=#222222 	guibg=#222222 							ctermfg=232		ctermbg=none
+hi TabLine 			guifg=#666666 	guibg=#222222 		gui=none 			ctermfg=245
 
 
-" Syntax highlighting 
-"hi Comment       guifg=#777777  gui=none
-hi Comment       guifg=#AFAFAF  gui=none
-hi Todo          guifg=#446644  guibg=#ddeecc  gui=italic
-hi Operator      guifg=#1a1a1a  gui=none
-hi Identifier    guifg=#1a1a1a  gui=none
-hi Statement     guifg=#1a1a1a  gui=none
-hi Type          guifg=#0050b0  gui=none
-"hi Constant      guifg=#204070  gui=none
-hi Constant      guifg=#B907CE  gui=none
-hi Conditional   guifg=#006633  gui=none
-hi Delimiter     guifg=#1a1a1a  gui=none
-hi PreProc       guifg=#006633  gui=none
-hi Special       guifg=#006633  gui=none
-hi Keyword       guifg=#007050  gui=none
+hi link goStatement 	Statement
+hi link goTodo 			Todo
+hi link goComment 		Comment 
+hi link goConstants 	Constant
 
 hi link Function        Normal
 hi link Character       Constant
@@ -133,3 +148,4 @@ hi link SpecialChar     Special
 hi link SpecialComment  Special
 hi link Debug           Special
 
+set background=light
