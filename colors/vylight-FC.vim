@@ -91,7 +91,7 @@ hi Special 			guifg=#006633 											ctermfg=22
 hi Keyword 			guifg=#375CF5 											ctermfg=26
 
 " Go lang
-hi goDeclaration 										gui=bold
+hi goDeclaration 										gui=bold 											cterm=bold
 hi goConditional 	guifg=#FF5400 						gui=bold 			ctermfg=202
 hi goComplexes   	guifg=#FF00C1 											ctermfg=199
 hi goLabel       										gui=italic 											cterm=italic
