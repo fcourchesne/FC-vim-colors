@@ -11,7 +11,7 @@ set fillchars+=vert:\
 " Black = 		'#222222' 		" Terminal: 232
 " Red = 			'#FF0009'       " Terminal: 250
 " Orange = 		'#FF5400' 		" Terminal: 202
-" Green =			'#E59220' 		" Terminal: 251
+" Green =			'#006633' 		" Terminal: 251
 " Purple = 		'#B907CE' 		" Terminal: 92
 " Grey = 			'#8C8C8C' 		" Terminal: 249
 " White = 		'#FFFFFF' 		" Terminal: 255
@@ -63,6 +63,7 @@ hi Title         	guifg=#FF5400 	guibg=#D6D6D6 		gui=none 			ctermfg=202 	ctermb
 hi Cursor        	guifg=Black 	guibg=#666666 		gui=none 			ctermfg=232 	ctermbg=245
 hi CursorLine 						guibg=#EAEAEA 		gui=none 							ctermbg=254 	cterm=none
 hi LineNr        	guifg=#8C8C8C 	guibg=#D6D6D6 		gui=none 			ctermfg=249
+hi CursorLineNr    	guifg=#FFFFFF 	guibg=#D6D6D6 		gui=bold 			ctermfg=202 				cterm=bold
 hi Visual 							guibg=#D0E7FF 		gui=none 							ctermbg=153
 hi NonText 			guifg=#FBFBFB 	guibg=#D6D6D6 	 	gui=none 			ctermfg=253
 hi StatusLine 		guifg=Black 	guibg=#D6D6D6 		gui=none 			ctermfg=232
@@ -77,8 +78,8 @@ hi ColorColumn 						guibg=#FBFBFB 		gui=none 							ctermbg=253
 hi MatchParen 						guibg=#FDFD74 		gui=none 							ctermbg=229
 hi Search 							guibg=#FDFD74 		gui=none 			ctermfg=none 	ctermbg=229
 hi IncSearch 						guibg=#FDFD74 		gui=bold 			ctermfg=none 	ctermbg=229
-hi Comment 			guifg=#8C8C8C 	guibg=#D6D6D6 		gui=italic 			ctermfg=249
-hi Todo 			guifg=#FF0009 	guibg=#FFFFFF 		gui=italic,bold 	ctermfg=160 	ctermbg=255 	cterm=bold
+hi Comment 			guifg=#8C8C8C 	guibg=#CDCDCD 		gui=italic 			ctermfg=249 	ctermbg=252
+hi Todo 			guifg=#D6D6D6 	guibg=#FF0009		gui=italic,bold 	ctermfg=253 	ctermbg=160 cterm=bold
 hi Operator 		guifg=Black 											ctermfg=232
 hi Identifier 		guifg=Black 											ctermfg=232 	ctermbg=none
 hi Statement 		guifg=#FF5400 						gui=bold 			ctermfg=202 					cterm=bold
