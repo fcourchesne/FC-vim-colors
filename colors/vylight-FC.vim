@@ -101,8 +101,8 @@ hi goType 			guifg=#375CF5 						gui=none 			ctermfg=26 		ctermbg=none 	cterm=no
 hi goFunction 											gui=bold 											cterm=bold
 
 " Prompt menu
-hi Pmenu 			guifg=#FBFBFB 	guibg=#666666 		gui=none 			ctermfg=253		ctermbg=245
-hi PmenuSel 		guifg=#FFFFFF 	guibg=#375CF5 		gui=bold 							ctermbg=255
+hi Pmenu 			guifg=#FBFBFB 	guibg=#666666 		gui=none 			ctermfg=253		ctermbg=241
+hi PmenuSel 		guifg=#FFFFFF 	guibg=#9212D6 		gui=bold 			ctermfg=255 	ctermbg=92 		cterm=bold
 hi PmenuSbar 		guifg=#8C8C8C 	guibg=#FFFFFF 		gui=bold 			ctermfg=249		ctermbg=200
 hi PmenuThumb 		guifg=#FBFBFB 	guibg=#FFFFFF 		gui=bold 			ctermfg=253		ctermbg=200
 
