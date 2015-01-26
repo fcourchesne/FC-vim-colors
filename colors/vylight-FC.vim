@@ -63,7 +63,7 @@ hi Title         	guifg=#FF5400 	guibg=#D6D6D6 		gui=none 			ctermfg=202 	ctermb
 hi Cursor        	guifg=Black 	guibg=#666666 		gui=none 			ctermfg=232 	ctermbg=245
 hi CursorLine 						guibg=#EAEAEA 		gui=none 							ctermbg=254 	cterm=none
 hi LineNr        	guifg=#8C8C8C 	guibg=#D6D6D6 		gui=none 			ctermfg=249
-hi CursorLineNr    	guifg=#FFFFFF 	guibg=#D6D6D6 		gui=bold 			ctermfg=202 				cterm=bold
+hi CursorLineNr    	guifg=#FF5400 	guibg=#D6D6D6 		gui=bold 			ctermfg=202 				cterm=bold
 hi Visual 							guibg=#D0E7FF 		gui=none 							ctermbg=153
 hi NonText 			guifg=#FBFBFB 	guibg=#D6D6D6 	 	gui=none 			ctermfg=253
 hi StatusLine 		guifg=Black 	guibg=#D6D6D6 		gui=none 			ctermfg=232
@@ -75,10 +75,10 @@ hi Error         	guifg=#BB3355 	guibg=#FF0009 		gui=none 			ctermfg=88 		ctermb
 hi Folded        	guifg=#666666 	guibg=#D6D6D6 		gui=none 			ctermfg=245
 hi FoldColumn    	guifg=#666666 	guibg=#D6D6D6 		gui=none 			ctermfg=245
 hi ColorColumn 						guibg=#FBFBFB 		gui=none 							ctermbg=253
-hi MatchParen 						guibg=#FDFD74 		gui=none 							ctermbg=229
-hi Search 							guibg=#FDFD74 		gui=none 			ctermfg=none 	ctermbg=229
-hi IncSearch 						guibg=#FDFD74 		gui=bold 			ctermfg=none 	ctermbg=229
-hi Comment 			guifg=#8C8C8C 	guibg=#CDCDCD 		gui=italic 			ctermfg=249 	ctermbg=252
+hi MatchParen 						guibg=#F9A658 		gui=none 							ctermbg=208
+hi Search 							guibg=#F6B645 		gui=none 			ctermfg=none 	ctermbg=215
+hi IncSearch 						guibg=#F6B645 		gui=bold 			ctermfg=none 	ctermbg=215
+hi Comment 			guifg=#8C8C8C 	guibg=#CDCDCD 		gui=italic 			ctermfg=245 	ctermbg=252
 hi Todo 			guifg=#D6D6D6 	guibg=#FF0009		gui=italic,bold 	ctermfg=253 	ctermbg=160 cterm=bold
 hi Operator 		guifg=Black 											ctermfg=232
 hi Identifier 		guifg=Black 											ctermfg=232 	ctermbg=none
@@ -93,7 +93,7 @@ hi Keyword 			guifg=#375CF5 											ctermfg=26
 
 " Go lang
 hi goDeclaration 										gui=bold 											cterm=bold
-hi goConditional 	guifg=#FF5400 						gui=bold 			ctermfg=202
+hi goConditional 	guifg=#FF5400 						gui=bold 			ctermfg=202 			cterm=bold
 hi goComplexes   	guifg=#FF00C1 											ctermfg=199
 hi goLabel       										gui=italic 											cterm=italic
 hi goDirective 											gui=bold 											cterm=bold
@@ -119,6 +119,17 @@ hi DiffAdd         					guibg=#DAFFD3 		gui=none 							ctermbg=121
 hi DiffChange      					guibg=#D3EEFF 		gui=none
 hi DiffText        					guibg=#FFFFFF 		gui=none 							ctermbg=117
 hi DiffDelete 		guifg=#8C8C8C 	guibg=#FFD2DD 		gui=none 			ctermfg=249 	ctermbg=225
+
+" Easymotion
+hi EasyMotionTarget 														ctermfg=92 		ctermbg=189 					cterm=bold
+hi EasyMotionShade 															ctermfg=250
+hi EasyMotion_hl_inc_search 												ctermfg=198
+hi EasyMotion_hl_move 														ctermfg=198
+hi EasyMotion_hl_inc_cursor 												ctermfg=198
+hi EasyMotion_hl_group_target 												ctermfg=198
+hi EasyMotion_hl_move 														ctermfg=198
+hi EasyMotionTarget2First 													ctermfg=198 	ctermbg=none 
+hi EasyMotionTarget2Second 													ctermfg=160 	ctermbg=none 
 
 hi TabLineFill 		guifg=#222222 	guibg=#222222 							ctermfg=232		ctermbg=none
 hi TabLine 			guifg=#666666 	guibg=#222222 		gui=none 			ctermfg=245
