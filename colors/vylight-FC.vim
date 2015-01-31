@@ -7,27 +7,27 @@
 " autocmd BufWritePost,BufRead vylight-FC.vim :colorscheme vylight-FC
 set fillchars+=vert:\ 
 
-" Background = 	'#D6D6D6' 		" Terminal: none
-" Black = 		'#222222' 		" Terminal: 232
-" Red = 			'#FF0009'       " Terminal: 250
-" Orange = 		'#FF5400' 		" Terminal: 202
+" Background = 		'#D6D6D6' 		" Terminal: none
+" Black = 			'#222222' 		" Terminal: 232
+" Red = 			'#FF0009'       " Terminal: 160
+" Orange = 			'#FF5400' 		" Terminal: 202
 " Green =			'#006633' 		" Terminal: 251
-" Purple = 		'#B907CE' 		" Terminal: 92
+" Purple = 			'#B907CE' 		" Terminal: 92
 " Grey = 			'#8C8C8C' 		" Terminal: 249
-" White = 		'#FFFFFF' 		" Terminal: 255
+" White = 			'#FFFFFF' 		" Terminal: 255
 " Pink = 			'#FF00C1' 		" Terminal: 199
 
-" LightBlue = 	'#D0E7FF' 		" Terminal: 153
+" LightBlue = 		'#D0E7FF' 		" Terminal: 153
 " LightYellow = 	'#FDFD74' 		" Terminal: 229
-" LightGrey = 	'#FBFBFB' 		" Terminal: 253
+" LightGrey = 		'#FBFBFB' 		" Terminal: 253
 
 " DarkGrey = 		'#666666' 		" Terminal: 245
-" DarkGreen = 	'#006633' 		" Terminal: 22
+" DarkGreen = 		'#006633' 		" Terminal: 22
 " DarkBlue = 		'#375CF5' 		" Terminal: 26
 " DarkPink = 		'#FF009D' 		" Terminal: 200
 " DarkRed = 		'#BB3355' 		" Terminal: 88
 
-" DiffRemovedBg= 		'#FFD2DD' 		" Terminal: 225
+" DiffRemovedBg= 	'#FFD2DD' 		" Terminal: 225
 " DiffAddedBg= 		'#DAFFD3' 		" Terminal: 121
 " DiffModifiedBg= 	'#D3EEFF' 		" Terminal: 117
 
@@ -60,7 +60,7 @@ let g:colors_name="vylight-FC"
 
 hi Normal 			guifg=Black 	guibg=#D6D6D6 		gui=none 			ctermfg=232		ctermbg=none
 hi Title         	guifg=#FF5400 	guibg=#D6D6D6 		gui=none 			ctermfg=202 	ctermbg=none
-hi Cursor        	guifg=Black 	guibg=#666666 		gui=none 			ctermfg=232 	ctermbg=245
+hi Cursor        	guifg=#D6D6D6 	guibg=#FF5400 		gui=none 			ctermfg=232 	ctermbg=253
 hi CursorLine 						guibg=#EAEAEA 		gui=none 							ctermbg=254 	cterm=none
 hi LineNr        	guifg=#8C8C8C 	guibg=#D6D6D6 		gui=none 			ctermfg=249
 hi CursorLineNr    	guifg=#FF5400 	guibg=#D6D6D6 		gui=bold 			ctermfg=202 				cterm=bold
