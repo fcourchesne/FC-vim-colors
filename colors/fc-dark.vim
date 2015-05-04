@@ -21,8 +21,8 @@ hi Todo 		 ctermfg=190 ctermbg=none cterm=bold
 hi LineNr        	 ctermfg=235
 hi CursorLineNr    	 ctermfg=238
 hi VertSplit 	 ctermfg=235
-hi Function  ctermfg=99
-hi Operator 	 ctermfg=111
+hi Function  ctermfg=92
+hi Operator 	 ctermfg=241
 hi Declaration  ctermfg=none
 hi Cursor        	 ctermfg=none
 hi CursorLine 		 ctermfg=none cterm=none
@@ -45,14 +45,14 @@ hi EasyMotionTarget  ctermfg=232 ctermbg=76 cterm=bold
 hi EasyMotionShade 	 ctermfg=235
 hi EasyMotionTarget2First 	 ctermbg=none
 hi EasyMotionTarget2Second 	 ctermfg=none 
-hi Search 		 ctermbg=190
-hi Type 		 ctermfg=193
+hi Search 		 ctermfg=232 ctermbg=191 
+hi Type 		 ctermfg=34 cterm=bold
 hi StatusLine 	 ctermfg=255 ctermbg=237 cterm=none
 hi StatusLineNC  ctermfg=239 ctermbg=235 cterm=none
 hi IncSearch 	 ctermfg=none
 hi Delimiter ctermfg=none
 hi NonText 		 ctermfg=232
-hi Visual 		 ctermbg=27
+hi Visual 		 ctermfg=255 ctermbg=27
 hi ModeMsg 		 ctermbg=93 ctermfg=255
 hi ErrorMsg 	 ctermbg=160 ctermfg=255
 hi Special 			 ctermfg=190
@@ -60,8 +60,8 @@ hi Special 			 ctermfg=190
 hi Error         ctermfg=none
 hi ColorColumn 	 ctermfg=none
 hi Identifier 	 ctermfg=none
-hi PreProc ctermfg=27
-hi Keyword 			 ctermfg=none
+hi PreProc          ctermfg=27
+hi Keyword 			 ctermfg=38
 hi SpellBad 		 ctermfg=none
 hi SpellCap 		 ctermfg=none
 hi Pmenu 			 ctermfg=248 ctermbg=93
